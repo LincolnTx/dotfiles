@@ -1,0 +1,150 @@
+{
+  "workbench.iconTheme": "material-icon-theme",
+    //font configuration
+    //"editor.fontFamily": "Fira Code",
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontLigatures": true ,
+    "editor.fontSize": 14,
+    "workbench.tree.indent": 10,
+    //editor aparence configurations
+    //editor terminal configuration
+    // command for use power shell 7 on vscode integrades terminal
+    "terminal.integrated.shell.windows": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+    "terminal.integrated.shellArgs.windows": [
+          "-nologo"
+      ],
+    // command for use bash on vscode integrated terminal
+    // "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    // command for use Cmder on vscode integrated terminal
+    // "terminal.integrated.shell.windows": "C:\\Windows\\Sysnative\\cmd.exe",
+    // "terminal.integrated.shellArgs.windows": [
+    //     "/k C:\\PROGRA~2\\Cmder\\vendor\\init.bat"
+    // ],
+ 
+    //config de exclude
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        //this line hides the files .g.dart used in mobx
+        "**/*.g.dart": true
+    },
+    "editor.semanticHighlighting.enabled": true,
+    //define vertical line
+    "editor.rulers": [
+        90,
+        0
+      ],
+       //define exibição de hints
+    "editor.parameterHints.enabled": false,
+     //apertura de arquivos
+    //seta para abrir arquivos em nova aba e não sobrepor
+    //mudar essa linha para false se quiser q abra sempre em uma nova guia
+    "workbench.editor.enablePreview": false,
+    "[csharp]": {
+        "editor.defaultFormatter": "ms-dotnettools.csharp",
+        "editor.formatOnSaveMode": "modifications",
+        "editor.formatOnSave": true
+      },
+      "eslint.alwaysShowStatus": true,
+      "[typescript]": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+          "source.fixAll.eslint": true
+        }
+      },
+    // needed to html snnipts work with react
+    "files.associations": {
+        "*.js": "javascriptreact"
+    },
+    "emmet.includeLanguages": {
+        "javascript": "css"
+    },
+    // coloca as pastas para sereme exibidas sempre em cascata
+    "explorer.compactFolders": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "cSpell.userWords": [
+        "ASPNETCORE",
+        "Datafeeds",
+        "Mediat",
+        "Vexter"
+    ],
+    "workbench.colorTheme": "Rider Dark",
+ 
+    // folders assosition 
+    "material-icon-theme.folders.associations": {
+        "domain": "app",
+        "entities": "class",
+        "schemas": "class",
+        "typeorm": "database",
+        "repositories": "mappings",
+        "http": "container",
+        "migrations": "tools",
+        "modules": "components",
+        "implementations": "core",
+        "dtos": "typescript",
+        "fakes": "mock",
+        "websockets": "pipe",
+        "protos": "pipe",
+        "grpc": "pipe",
+      },
+      // files assosiations
+      "material-icon-theme.files.associations": {
+        "tsconfig.json": "tune",
+        "*.proto": "3d"
+      },
+      "colorize.languages": [
+        "javascript",
+        "typescript",
+        "javascriptreact",
+        "typescriptreact",
+        "json",
+        "html",
+        "css",
+        "csharp"
+      ],
+      // make vscode always open in same window size
+      "window.restoreWindows": "all",
+      "window.newWindowDimensions": "inherit",
+      "gitlens.views.repositories.location": "gitlens",
+      "gitlens.views.fileHistory.location": "gitlens",
+      "gitlens.views.lineHistory.location": "gitlens",
+      "gitlens.views.compare.location": "gitlens",
+      "gitlens.views.search.location": "gitlens",
+      "gitlens.menus": {
+        "editor": false,
+        "editorGroup": false,
+        "editorTab": false,
+        "explorer": {
+          "clipboard": true,
+          "compare": true,
+          "history": true,
+          "remote": true
+        },
+        "scmGroup": {
+          "compare": true,
+          "openClose": true,
+          "stash": true,
+          "stashInline": true
+        },
+        "scmItem": {
+          "clipboard": true,
+          "compare": true,
+          "history": true,
+          "remote": true,
+          "stash": true
+        }
+      },
+      "editor.suggestSelection": "first",
+      "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+      "git.confirmSync": false,
+
+      "editor.bracketPairColorization.enabled": true,
+      "editor.guides.bracketPairs": "active",
+      "typescript.updateImportsOnFileMove.enabled": "always",
+      "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+      }
+}
