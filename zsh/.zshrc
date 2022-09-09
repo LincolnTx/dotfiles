@@ -105,10 +105,9 @@ source ~/.oh-my-zsh/plugins/git/git.plugin.zsh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 #Alias
-alias vip="cd ~/vipcommerce/backend"
-alias projects="cd ~/projects/backend"
+alias backend="cd ~/projects/backend"
 alias vim="nvim"
-alias ls="ls -la --color=always"
+alias ls="ls -a --color=always"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
